@@ -1,6 +1,6 @@
 # HexHound
 
-**English** · [Česky](README.cs.md)
+**English** · [Česky](https://github.com/Neroje21/HexHound/blob/main/README.md)
 
 HexHound is a network traffic analyzer written in pure Python that captures live IPv4 traffic from a raw socket and decodes Ethernet, IP, TCP and UDP headers byte by byte with `struct`, with no `scapy` or other parsing libraries. It flags port scans and cleartext credentials as they happen, and lets you stop the capture and inspect any packet's headers and payload in a hex dump.
 
