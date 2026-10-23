@@ -1,6 +1,6 @@
 # HexHound
 
-[English](README.md) · **Česky**
+[English](https://github.com/Neroje21/HexHound/blob/main/README.en.md) · **Česky**
 
 HexHound je analyzátor síťového provozu napsaný v čistém Pythonu, který zachytává živý IPv4 provoz přes raw socket a bajt po bajtu dekóduje hlavičky Ethernet, IP, TCP a UDP pomocí modulu `struct`, bez `scapy` či jiných knihoven pro parsování paketů. Za běhu upozorňuje na skenování portů a na přihlašovací údaje přenášené v nešifrovaném textu a po zastavení zachytávání umožňuje prohlédnout hlavičky i obsah libovolného paketu včetně hexadecimálního výpisu.
 
